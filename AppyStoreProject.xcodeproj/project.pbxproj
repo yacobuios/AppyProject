@@ -14,6 +14,7 @@
 		0A0BAC521D3A535B007A3525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BAC501D3A535B007A3525 /* LaunchScreen.storyboard */; };
 		0A0BAC5D1D3A535B007A3525 /* AppyStoreProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BAC5C1D3A535B007A3525 /* AppyStoreProjectTests.swift */; };
 		0A0BAC681D3A535B007A3525 /* AppyStoreProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BAC671D3A535B007A3525 /* AppyStoreProjectUITests.swift */; };
+		0A0BAC761D3A554E007A3525 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BAC751D3A554E007A3525 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0A0BAC631D3A535B007A3525 /* AppyStoreProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppyStoreProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0BAC671D3A535B007A3525 /* AppyStoreProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppyStoreProjectUITests.swift; sourceTree = "<group>"; };
 		0A0BAC691D3A535B007A3525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0BAC751D3A554E007A3525 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				0A0BAC471D3A535B007A3525 /* AppDelegate.swift */,
 				0A0BAC491D3A535B007A3525 /* ViewController.swift */,
+				0A0BAC751D3A554E007A3525 /* TableViewController.swift */,
 				0A0BAC4B1D3A535B007A3525 /* Main.storyboard */,
 				0A0BAC4E1D3A535B007A3525 /* Assets.xcassets */,
 				0A0BAC501D3A535B007A3525 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A0BAC4A1D3A535B007A3525 /* ViewController.swift in Sources */,
+				0A0BAC761D3A554E007A3525 /* TableViewController.swift in Sources */,
 				0A0BAC481D3A535B007A3525 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
